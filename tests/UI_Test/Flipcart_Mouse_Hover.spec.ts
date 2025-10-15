@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.skip('Flipcart Login Page Mouse Hover', async ({ page }) => {
+test('Flipcart Login Page Mouse Hover', async ({ page }) => {
   await page.goto('https://www.flipkart.com/');
   await page.waitForLoadState('networkidle');
   await page.hover("//span[normalize-space()='Login']")

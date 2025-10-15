@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "Smoke_Test": "playwright test --grep @smoke",
+    "Smoke_Test_List": "playwright test --grep @smoke --list"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
