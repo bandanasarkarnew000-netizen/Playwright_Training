@@ -1,0 +1,12 @@
+{
+  "name": "playwright_demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node tests/TypeScript/Write_To_Jsonfile.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  }
+}

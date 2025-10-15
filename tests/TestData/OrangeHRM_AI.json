@@ -1,0 +1,37 @@
+[
+  {
+    "username": "Admin",
+    "password": "admin123",
+    "expected": "Dashboard"
+  },
+  {
+    "username": "",
+    "password": "admin123",
+    "expected": "Required"
+  },
+  {
+    "username": "Admin",
+    "password": "",
+    "expected": "Required"
+  },
+  {
+    "username": "",
+    "password": "",
+    "expected": "Required"
+  },
+  {
+    "username": "invalidUser",
+    "password": "admin123",
+    "expected": "Invalid credentials"
+  },
+  {
+    "username": "Admin",
+    "password": "wrongpass",
+    "expected": "Invalid credentials"
+  },
+  {
+    "username": "invalidUser",
+    "password": "wrongpass",
+    "expected": "Invalid credentials"
+  }
+]

@@ -1,0 +1,10 @@
+
+# Playwright
+ # Username: bandanasarkarnew000-netizen
+ # Email: bandanasarkarnew000@gmail.com
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
