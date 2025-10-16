@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "Smoke_Test": "playwright test --grep @smoke",
-    "Smoke_Test_List": "playwright test --grep @smoke --list"
+    "Smoke_Test_List": "playwright test --grep @smoke --list",
+    "Smoke_Test_Chrome": "npx playwright test --grep @smoke --project=chromium",
+    "Smoke_Test_Listener": "npx playwright test --grep @smoke --list"
   },
   "keywords": [],
   "author": "",

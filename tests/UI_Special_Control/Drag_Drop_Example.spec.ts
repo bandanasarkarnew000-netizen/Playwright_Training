@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Drag and Drop Exp 1', async ({ page }) => {
+test('Drag and Drop Exp 1 @smoke', async ({ page }) => {
     // Visit the LambdaTest Drag and Drop Demo
     await page.goto("https://www.lambdatest.com/selenium-playground/drag-and-drop-demo");
     // Correct locators for draggable and dropzone
